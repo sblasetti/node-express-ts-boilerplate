@@ -1,0 +1,9 @@
+{
+    "verbose": true,
+    "ext": "js,jsx,ts,tsx,html,css,json",
+    "watch": [
+        "src",
+        "server.js"
+    ],
+    "exec": "npm run build"
+  }
