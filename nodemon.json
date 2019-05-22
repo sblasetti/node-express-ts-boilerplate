@@ -5,5 +5,5 @@
         "src",
         "server.js"
     ],
-    "exec": "npm run build"
+    "exec": "npm run build && npm run server"
   }

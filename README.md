@@ -2,7 +2,7 @@
 
 Basic project configured to transpile TS to JS, bundle the JS, start and Express server and re-transpile (build) the code on changes.
 
-To start, run ```npm start``` and ```npm watch``` in two differnt terminals.
+Run ```npm start``` to compile, start the server and watch for changes.
 
 ## Default modules
 - TypeScript
@@ -11,5 +11,6 @@ To start, run ```npm start``` and ```npm watch``` in two differnt terminals.
 - Nodemon
 
 ## NPM scripts
-- ```npm start```: transpiles TS, bundles the JS in a /dist folder and starts Express to statically serve that folder.
-- ```npm run watch```: transpiles and re-bundles on each change in the /src folder.
+- ```npm run build```: transpiles TS, bundles the JS in the /dist folder.
+- ```npm run server```: starts Express to statically serve the /dist folder.
+- ```npm start```: executes ```build``` and if successful, executes ```server```. Watches for changes and if any, runs both scripts again.
