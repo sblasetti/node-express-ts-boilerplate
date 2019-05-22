@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode development",
     "server": "node server.js",
-    "watch": "nodemon"
+    "start": "nodemon"
   },
   "author": "",
   "license": "ISC",
