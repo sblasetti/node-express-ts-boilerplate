@@ -1,9 +1,7 @@
 {
     "verbose": true,
-    "ext": "js,jsx,ts,tsx,html,css,json",
-    "watch": [
-        "src",
-        "server.js"
-    ],
-    "exec": "npm run build && npm run server"
-  }
+    "watch": ["src"],
+    "ignore": ["**/*.test.ts", ".git", "node_modules"],
+    "ext": "ts,tsx",
+    "exec": "npm run build:dev && npm run start:current"
+}
