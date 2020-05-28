@@ -12,7 +12,7 @@ module.exports = [
         ...devConfig,
     },
     {
-        // common wdc config
+        // common web config
         ...common[1],
         ...devConfig,
     },

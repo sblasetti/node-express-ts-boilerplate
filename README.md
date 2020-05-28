@@ -1,16 +1,24 @@
-# TypeScript Workbench
+# Node + Express + TypeScript boilerplate
 
-Basic project configured to transpile TS to JS, bundle the JS, start and Express server and re-transpile (build) the code on changes.
-
-Run ```npm start``` to compile, start the server and watch for changes.
-
-## Default modules
-- TypeScript
-- Webpack + plugins (clean-webpack-plugin, copy-webpack-plugin) + loaders (ts-loader)
-- Express
-- Nodemon
+Simple project configured with both an API and Web components hosted as part of the same Express instance, for prototyping purposes.
 
 ## NPM scripts
-- ```npm run build```: transpiles TS, bundles the JS in the /dist folder.
-- ```npm run server```: starts Express to statically serve the /dist folder.
-- ```npm start```: executes ```build``` and if successful, executes ```server```. Watches for changes and if any, runs both scripts again.
+
+-   `npm start`: to compile, start the server and watch for changes.
+-   `npm test`: to run unit tests.
+
+## Common
+
+-   ESLint: linting
+-   Prettier: formatting
+-   Jest: testing
+-   Webpack: bundling
+-   Nodemon: hot-reloading
+
+## Web
+
+-   React + React-Router
+
+## API
+
+-   Express
